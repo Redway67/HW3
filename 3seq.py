@@ -11,3 +11,6 @@ second_list = [int(i) for i in digits_str]
 result = [j for j in first_list if j not in second_list]
 
 print(result)
+
+# что значит "проверить на разных списках"?
+# если списки с разными типами, то можно убрать приведение к целому, должно работать.
